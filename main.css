@@ -14,6 +14,7 @@ body {
 }
 
 ul {
+    text-align: center;
     font-family: helvetica;
 }
 li {
@@ -35,24 +36,38 @@ li {
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
+    --topnavbutton: var(--black);
 }
 .dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
     --btnBg: var(--green);
     --btnFontColor: var(--black);
-}
-.btn {
-    position: absolute;
-    top: 20px;
-    left: 400px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
+    --topnavbutton: var(--green);
 }
 
+/*this is for the top navigation bar*/
+.topnav {
+    background-color: var(--white);
+    overflow: hidden;
+}
+
+.topnav a{
+    float: right;
+    color: var(--bg);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/*hover is when the user has the mouse pointer on it*/
+.topnav a:hover {
+    background-color: var(--black);
+    color: var(--topnavbutton);
+}
+/* active is when it is active or not*/
+.topnav a.active {
+    background-color: var(--white);
+    color: var(--topnavbutton);
+}
 
