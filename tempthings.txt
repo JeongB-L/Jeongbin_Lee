@@ -36,16 +36,15 @@
     <p id="msg">Current things to go through</p>
     <ul>
         <li class="list">linking all pages is completed, so now move on to the next step</li>
-        <li class="list">finish the main visual page, change the color, center thinkgs, re-design it + use animation css effects
+        <li class="list">finish the main visual page, change the color, center thinkgs, re-design it
             + make the background images move for here. https://stackoverflow.com/questions/53065293/how-to-make-image-move-in-a-frame-infinitely
             and https://www.plus2net.com/javascript_tutorial/image-move1.php
         </li>
         <li class="list">Insert my resume and locate the download button with some description</li>
         <li>Write a brief introduction of myself including some life story and skills</li>
-        <li> maybe have something that shows my level of skills using bars</li>
     </ul>
     <script src="app.js"></script>
-    <noscript>Please enable Javascript to view the full website</noscript> <!--this noscript will pop up when the JavaScript is disabled-->
+    <noscript>You need to enable JavaScript to view the full site</noscript> <!--this noscript will pop up when the JavaScript is disabled-->
     <script type="text/javascript" src="skrollr.min.js"></script>
     <script type="text/javascript">
         var s = skrollr.init();

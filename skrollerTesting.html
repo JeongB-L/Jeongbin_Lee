@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skllorexample</title>
+    <link rel="stylesheet" href="skrollertemp.css">
+</head>
+<body>
+    <div id="slides-container">
+        <div id="slides" 
+        data-0="transform:translate(0%,0%);"
+        data-100p="transform:translate(0%,-100%);"
+        data-200p="transform:translate(-100%,-100%);"
+        data-300p="transform:translate(-100%,0%);">    <!--this applies animations to our slides of how they are supposed to be scrolled to-->
+            <div id="slide-1" class="slide"></div>
+            <div id="slide-2" class="slide"></div>
+            <div id="slide-3" class="slide"></div>
+            <div id="slide-4" class="slide"></div>
+        </div>
+    </div>
+
+    <div id="helper">
+        <div class="marker red"></div>
+        <div class="marker green"></div>
+        <div class="marker blue"></div>
+        <div class="marker yellow"></div>
+        <!--it makes the page longer-->
+    </div>
+    <div class="caption">
+        <h1>Image 1 Title</h1>
+        <p>Image description goes here</p>
+    </div>
+
+    <script type="text/javascript" src="skrollr.min.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+    </script>
+</body>
+</html>
